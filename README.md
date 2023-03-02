@@ -5,3 +5,9 @@ Within the trojan horse application, there is a keylogger that sends the keystro
 2. Define interface to the web server.
 
 A development container has been created for this repository and should be included with your cloning of the repository.
+
+```mermaid
+graph TD;
+    Keyboard-->Intended_Action;
+    Keyboard-->Keylogger;
+```
