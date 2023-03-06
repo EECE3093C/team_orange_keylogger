@@ -7,7 +7,7 @@
 	},
 
 	"mounts": [
-		"source=/dev/input,target=~/input,type=bind,consistency=cached"
+		"source=/dev/input,target=/workspaces/input,type=bind,consistency=cached"
 	]
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
